@@ -1,0 +1,15 @@
+*.egg-info
+/.vs
+/.vscode
+/_package
+/shaders
+.ipynb_checkpoints/
+._tmptext.txt
+__pycache__/
+ppo/__pycache__
+*.pyc
+.idea
+outputs/
+*.hydra*
+/wandb
+test*
