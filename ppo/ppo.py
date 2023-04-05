@@ -408,12 +408,7 @@ class PPO(object):
             for k, v in infos.items():
                 # only log scalars
                 if isinstance(v, float) or isinstance(v, int) or (isinstance(v, torch.Tensor) and len(v.shape) == 0):
-                    if k in self.extra_info and k.startswith('successes/n_'):
-                        # log screw successes/failures differently
-                        self.extra_info[k] += v
-                        self.extra_info[f'{k}_rate'] = v  # dx/dt
-                    else:
-                        self.extra_info[k] = v
+                    self.extra_info[k] = v
 
             not_dones = 1.0 - self.dones.float()
 
