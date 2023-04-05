@@ -29,8 +29,11 @@ Logging on TensorBoard and WandB are supported by default.
 
 Our PPO results match IsaacGymEnvs' default RL implementation, in terms of both training speed and performance.
 
-![Cartpole](imgs/Cartpole.png)
-![AllegroHand](imgs/AllegroHand.png)
+#### Cartpole in 40 seconds
+<img src="imgs/Cartpole.png"  width="50%" height="50%">
+
+#### AllegroHand in 3 hours
+<img src="imgs/AllegroHand.png"  width="50%" height="50%">
 
 ## Key arguments and parameters
 
