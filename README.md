@@ -78,6 +78,7 @@ Here are some helpful guides to tuning PPO hyperparameters:
 
 [Duan Y, Chen X, Houthooft R, Schulman J, Abbeel P. Benchmarking deep reinforcement learning for continuous control. In International conference on machine learning 2016 Jun 11 (pp. 1329-1338). PMLR.](https://arxiv.org/abs/1604.06778)
 
+I also documented a few general takeaways in [this](https://twitter.com/ToruO_O/status/1643469546765029376?cxt=HHwWgMDQ4Yy2484tAAAA) tweet :)
 
 ## Wait, doesn't IsaacGymEnvs already provide RL training scripts?
 
