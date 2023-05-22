@@ -11,6 +11,10 @@ A minimal and stable Proximal Policy Optimization ([PPO](https://arxiv.org/pdf/1
 
 Following instructions [here](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs) to install Isaac Gym and the IsaacGymEnvs repo.
 
+Optional instructions for cleaner code and dependencies:
+* Under [isaacgymenvs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/tree/main/isaacgymenvs) directory, the `cfg`, `learning` subdirectories and `train.py` file can be removed.
+* The dependency on `rl-games` on [this](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/blob/main/setup.py#L22) line can be removed.
+
 ### First example
 To train a policy on Cartpole, run
 ```bash
