@@ -322,7 +322,7 @@ class PPO(object):
                     + b_loss * self.bounds_loss_coef
 
                 self.optimizer.zero_grad()
-                loss.backward()
+                loss.backward(retain_graph=True)
 
                 if self.multi_gpu:
                     # batch all_reduce ops https://github.com/entity-neural-network/incubator/pull/220
