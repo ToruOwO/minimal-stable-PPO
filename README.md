@@ -103,3 +103,8 @@ Please use the following bibtex if you find this repo helpful and would like to 
       journal = {GitHub repository},
       howpublished = {\url{https://github.com/ToruOwO/minimal-stable-PPO}},
     }
+
+
+## Acknowledgement
+
+Shout-out to [hora](https://github.com/HaozhiQi/hora) and [rl_games](https://github.com/Denys88/rl_games/), which this code implementation referenced!
