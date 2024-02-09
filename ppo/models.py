@@ -61,7 +61,7 @@ class ActorCritic(nn.Module):
 
         # policy output layer with scale 0.01
         # value output layer with scale 1
-        torch.nn.init.orthogonal_(self.value.weight, gain=0.01)
+        torch.nn.init.orthogonal_(self.mu.weight, gain=0.01)
         torch.nn.init.orthogonal_(self.value.weight, gain=1.0)
 
     @torch.no_grad()
